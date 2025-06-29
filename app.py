@@ -7,4 +7,4 @@ with open("pp.html", "r", encoding="utf-8") as f:
 
 # Display the HTML in Streamlit
 st.set_page_config(layout="wide")
-components.html(html_data, height=2000, scrolling=True)
+components.html(html_data, height=1500, scrolling=True)
